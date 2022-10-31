@@ -1,0 +1,95 @@
+
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#banner{
+    background-image: url(../Foto/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content h1, h4, h2{
+    font-posisition: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+}
+.banner-content h5{
+    font-posisition: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+}
+.banner-content h2{
+    font-posisition: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-content h8{
+    font-posisition: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-content h9{
+    font-posisition: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+/* list film */
+#film{
+    background-image: linear-gradient(to right, rgb(128, 14, 10), rgb(136, 6, 1));
+}
+
+.Title-selection{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.card-img-top{
+    height: 250px;
+}
+.card{
+    transition: 0,3s ease-in-out;
+}
+.card:hover{
+    transition: scale(1.1);
+    background-color: blueviolet;
+}
+
+
+
+    /* JENJANG */
+#JENJANG{
+    background-image: linear-gradient(to right, rgb(209, 170, 168), rgb(209, 170, 168));
+}
+
+.Title-selection{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.card-style{
+    color: aqua;
+}
+.card{
+    transition: 0,3s ease-in-out;
+}
+.card:hover{
+    transition: scale(1.1);
+    background-color: rgb(255, 255, 255);
+}
